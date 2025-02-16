@@ -684,17 +684,8 @@ def set_img_to_result_img(img_path):
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
 
-img_paths = ['1681907550593.png', '1681907550722.png', '1681907550787.png', '1681907550840.png', '1681907555229.png', '1681907560530.png', 'IMG_2351.jpg', 'IMG_2352.png', 'IMG_2353.png', 'IMG_2354.png',
-             '립제이 인사이트1.png', '립제이 인사이트2.png', '박민주 인사이트1.png', '박민주 인사이트2.png', '박민주 인사이트3.png', '인사이트1.png', '인사이트2png.png', 'IMG_3291.jpeg', 'KakaoTalk_Photo_2023-05-22-17-05-07 001.jpeg',
-             'KakaoTalk_Photo_2023-05-31-15-27-26 001.png', 'KakaoTalk_Photo_2023-05-31-15-27-26 002.png', 'KakaoTalk_Photo_2023-05-31-15-27-39.png', 'KakaoTalk_Photo_2023-05-31-15-27-48.png',
-             'KakaoTalk_Photo_2023-05-31-15-27-56.png', 'KakaoTalk_Photo_2023-05-31-15-28-07 002.jpeg', 'KakaoTalk_Photo_2023-05-31-15-28-21.jpeg', 'KakaoTalk_Photo_2023-05-31-15-28-38 001.jpeg',
-             'KakaoTalk_Photo_2023-05-31-15-28-38 002.jpeg', 'KakaoTalk_Photo_2023-05-31-15-28-54.png', 'KakaoTalk_Photo_2023-05-31-15-29-15.png', 'KakaoTalk_Photo_2023-06-05-13-19-17 001.jpeg',
-             'KakaoTalk_Photo_2023-06-05-13-19-18 002.jpeg', 'KakaoTalk_Photo_2023-06-05-13-26-36 001.png', 'KakaoTalk_Photo_2023-06-05-13-26-36 002.png', 'KakaoTalk_Photo_2023-06-05-13-27-08 001.jpeg',
-             'KakaoTalk_Photo_2023-06-05-15-29-43.jpeg', 'KakaoTalk_Photo_2023-06-05-15-29-47.jpeg',  'KakaoTalk_Photo_2023-06-05-15-30-18 003.png']
-## 잘 안된 것
-# img_paths = ['KakaoTalk_Photo_2023-05-31-15-28-21.jpeg']
-# img_paths = ['KakaoTalk_Photo_2023-06-05-13-19-17 001.jpeg']
-img_paths = ['IMG_2354.png']
+img_paths = ['파일 경로.jpg']
+
 for img_path in img_paths:
     set_img_to_result_img(img_path)
     
